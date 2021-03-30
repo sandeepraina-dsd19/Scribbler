@@ -4,6 +4,7 @@
     <list default="true" id="9af9b167-caf5-4afc-9cea-0030fe1f8d0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617135721459</updated>
-      <workItem from="1617135723376" duration="2858000" />
+      <workItem from="1617135723376" duration="12199000" />
     </task>
     <task id="LOCAL-00001" summary="js and css files added">
       <created>1617138187216</created>
@@ -62,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617138187216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="header added with stylesheet code">
+      <created>1617139082571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617139082571</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="js and css files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="js and css files added" />
+    <MESSAGE value="header added with stylesheet code" />
+    <option name="LAST_COMMIT_MESSAGE" value="header added with stylesheet code" />
   </component>
 </project>
