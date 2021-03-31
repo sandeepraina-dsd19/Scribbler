@@ -15,9 +15,8 @@ body {
     float: right;
 
     margin: 10px 10px 10px 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Microsoft Sans Serif";
     border-color: white;
-
 }
 
 .logo-title {
@@ -95,7 +94,7 @@ form {
 }
 
 .form-bttn {
-    background-color: green;
+    background-color: limegreen;
     padding: 10px;
     border: none;
     color: #fff;
@@ -122,5 +121,8 @@ form {
 .modal-bottomtext {
     display:inline;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
+    font-family: "Microsoft Sans Serif";
+    font-size: 15px;
+    font-weight: bold;
 }

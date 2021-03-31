@@ -6,14 +6,22 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
     <link href='common.css' rel='stylesheet' type='text/css'>
+    <link href='index.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
     <div class="header">
-        <input id="sign-up" class="topButtons" type="button" value="Sign Up">
-        <input id="sign-in" class="topButtons" type="button" value="Sign In">
+        <button id="sign-up" class="topButtons" type="button">Sign Up</button>
+        <button id="sign-in" class="topButtons" type="button">Sign In</button>
         <a id="pageTitle" class="logo-title">ScriBBler</a>
         <p class="middleText">Explore, Imagine, Create</p>
+    </div>
+
+    <div class="pagecontainer">
+        <div class="buttoncenter">
+            <button id="all-posts" class="pageButtons")>All Posts</button>
+            <button id="create-post" class="pageButtons">Create Post</button>
+        </div>
     </div>
 
     <!-- The Modal -->
@@ -68,7 +76,32 @@
 
     </div>
 
+    <!-- The Modal -->
+    <div id="createpostModal" class="modal-post">
+
+        <!-- Modal content -->
+        <div class="modal-content-post">
+            <div>
+                <span class="close-createpost fa fa-times" aria-hidden="true"></span>
+                <p class="modal-header-post">Pen Your Post</p>
+            </div>
+            <hr class="horizontal-line-post">
+
+            <form id="createpost-form" name="CreatePostForm">
+                <label for="title" class="modal-text-post">Title</label>
+                <input type="text" id="title" class="modal-inputtext-post" placeholder="Enter title of your post" required>
+                <label for="contents" class="modal-text-post">Contents</label>
+                <textarea id="contents" class="modal-inputtextarea-post" placeholder="Enter the contents of your post" required></textarea>
+                <div class="horizontalbuttoncenter">
+                    <button class="form-bttn-post">Create</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
     <script src="common.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

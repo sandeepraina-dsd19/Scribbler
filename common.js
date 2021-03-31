@@ -16,8 +16,7 @@ var span_signup = document.getElementsByClassName("close-signup")[0];
 // Get the <span> element that closes the modal
 var span_signin = document.getElementsByClassName("close-signin")[0];
 
-var href = document.getElementsByClassName("modal-showsignup")[0];
-console.log(href.innerHTML);
+var signup_href = document.getElementsByClassName("modal-showsignup")[0];
 
 // When the user clicks on the button, open the modal
 btn_signup.onclick = function() {
@@ -29,7 +28,7 @@ btn_signin.onclick = function() {
     modal_signin.style.display = "block";
 }
 
-href.onclick = function () {
+signup_href.onclick = function () {
     modal_signin.style.display = "none";
     modal_signup.style.display = "block";
 }
