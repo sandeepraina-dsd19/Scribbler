@@ -2,17 +2,106 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link href='common.css' rel='stylesheet' type='text/css'>
+    <link href='index.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
     <div class="header">
-        <input class="topButtons" type="button" value="Sign Up">
-        <input class="topButtons" type="button" value="Sign In">
-        <a id="pageTitle" class="logo-title">SnipPic</a>
-        <p class="middleText">Share Happiness!</p>
+        <button id="sign-up" class="topButtons" type="button">Sign Up</button>
+        <button id="sign-in" class="topButtons" type="button">Sign In</button>
+        <a id="pageTitle" class="logo-title">ScriBBler</a>
+        <p class="middleText">Explore, Imagine, Create</p>
     </div>
+
+    <div class="pagecontainer">
+        <div class="buttoncenter">
+            <button id="all-posts" class="pageButtons")>All Posts</button>
+            <button id="create-post" class="pageButtons">Create Post</button>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="signupModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div>
+                <span class="close-signup fa fa-times" aria-hidden="true"></span>
+                <p class="modal-header">Get Started</p>
+            </div>
+            <hr class="horizontal-line">
+
+            <form id="signup-form" name="SignupForm">
+                <label for="name" class="modal-text">Name</label>
+                <input type="text" id="name" class="modal-inputtext" placeholder="Enter your name" required>
+                <label for="username" class="modal-text">Username</label>
+                <input type="text" id="username" class="modal-inputtext" placeholder="Enter your username" required>
+                <label for="password" class="modal-text">Password</label>
+                <input type="password" id="password" class="modal-inputtext" placeholder="Enter your password" required>
+                <label for="confirm-password" class="modal-text">Confirm Password</label>
+                <input type="password" id="confirm-password" class="modal-inputtext" placeholder="Re-enter your password" required>
+                <button class="form-bttn">Sign Up</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- The Modal -->
+    <div id="signinModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div>
+                <span class="close-signin fa fa-times" aria-hidden="true"></span>
+                <p class="modal-header">Welcome Back!</p>
+            </div>
+            <hr class="horizontal-line">
+
+            <form id="signin-form" name="SigninForm">
+                <label for="login-username" class="modal-text">Username</label>
+                <input type="text" id="login-username" class="modal-inputtext" placeholder="Enter your username" required>
+                <label for="login-password" class="modal-text">Password</label>
+                <input type="password" id="login-password" class="modal-inputtext" placeholder="Enter your password" required>
+                <button class="form-bttn">Sign In</button>
+                <div class="modal-bottomtext">
+                    Not a member?
+                    <a class="modal-showsignup" href="#">Sign Up</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- The Modal -->
+    <div id="createpostModal" class="modal-post">
+
+        <!-- Modal content -->
+        <div class="modal-content-post">
+            <div>
+                <span class="close-createpost fa fa-times" aria-hidden="true"></span>
+                <p class="modal-header-post">Pen Your Post</p>
+            </div>
+            <hr class="horizontal-line-post">
+
+            <form id="createpost-form" name="CreatePostForm">
+                <label for="title" class="modal-text-post">Title</label>
+                <input type="text" id="title" class="modal-inputtext-post" placeholder="Enter title of your post" required>
+                <label for="contents" class="modal-text-post">Contents</label>
+                <textarea id="contents" class="modal-inputtextarea-post" placeholder="Enter the contents of your post" required></textarea>
+                <div class="horizontalbuttoncenter">
+                    <button class="form-bttn-post">Create</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="common.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
