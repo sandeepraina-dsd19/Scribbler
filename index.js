@@ -3,8 +3,6 @@ var btn_allposts = document.getElementById("all-posts");
 var btn_createpost = document.getElementById("create-post");
 var span_createpost = document.getElementsByClassName("close-createpost")[0];
 
-console.log(btn_createpost.innerHTML);
-
 btn_allposts.onclick = function() {
     location.href = './html/bloglist.html';
 }
