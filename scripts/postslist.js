@@ -10,7 +10,7 @@ modal_deletepostNo.onclick = function () {
 
 modal_deletepostYes.onclick = function () {
     var getcard_byID = document.getElementById(selected_postID);
-    getcard_byID.style.display = "none";
+    getcard_byID.remove();
     modal_deletepostDialog.style.display = "none";
 }
 
@@ -20,5 +20,5 @@ function deletePost(id) {
 }
 
 function loadPost(id) {
-    window.location.href = "./post.html";
+    window.location.href = "../html/post.html";
 }

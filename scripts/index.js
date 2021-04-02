@@ -6,7 +6,7 @@ var btn_createpost = document.getElementById("create-post");
 var span_createpost = document.getElementsByClassName("createPost-close")[0];
 
 btn_allposts.onclick = function() {
-    location.href = './html/bloglist.html';
+    location.href = '../html/bloglist.html';
 }
 
 btn_createpost.onclick = function() {

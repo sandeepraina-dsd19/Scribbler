@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af9b167-caf5-4afc-9cea-0030fe1f8d0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/postslist.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/postslist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/postslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/postslist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/postslist.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/postslist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +55,12 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Scribbler\styles" />
+      <recent name="D:\Code\Scribbler\scripts" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617135721459</updated>
       <workItem from="1617135723376" duration="18487000" />
-      <workItem from="1617337221030" duration="12079000" />
+      <workItem from="1617337221030" duration="12427000" />
     </task>
     <task id="LOCAL-00001" summary="js and css files added">
       <created>1617138187216</created>
@@ -105,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617397462903</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Title added for index.html page">
+      <created>1617397530619</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617397530619</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +154,7 @@
     <MESSAGE value="Header code generialized and postlist modals added" />
     <MESSAGE value="Page header section signup text fixed" />
     <MESSAGE value="Header section on the post page included" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header section on the post page included" />
+    <MESSAGE value="Title added for index.html page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Title added for index.html page" />
   </component>
 </project>
