@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af9b167-caf5-4afc-9cea-0030fe1f8d0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/bloglist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/postslist.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/postslist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/postslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/postslist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/postslist.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/postslist.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -60,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617135721459</updated>
       <workItem from="1617135723376" duration="18487000" />
+      <workItem from="1617337221030" duration="10773000" />
     </task>
     <task id="LOCAL-00001" summary="js and css files added">
       <created>1617138187216</created>
@@ -82,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617148500602</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Layout cards added">
+      <created>1617235646111</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617235646111</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,11 +108,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="js and css files added" />
     <MESSAGE value="header added with stylesheet code" />
     <MESSAGE value="Modal added with background image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modal added with background image" />
+    <MESSAGE value="Layout cards added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layout cards added" />
   </component>
 </project>
