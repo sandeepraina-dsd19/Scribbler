@@ -5,69 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href='../common.css' rel='stylesheet' type='text/css'>
     <link href='postslist.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <div class="header">
-        <button id="sign-in" class="topButtons" type="button">Sign In</button>
-        <button id="sign-up" class="topButtons" type="button">Sign Up</button>
-        <a id="pageTitle" class="logo-title">ScriBBler</a>
-        <p class="middleText">Explore, Imagine, Create</p>
-    </div>
+    <div class="header"></div>
 
     <!-- The Modal -->
-    <div id="signupModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-            <div>
-                <span class="close-signup fa fa-times" aria-hidden="true"></span>
-                <p class="modal-header">Get Started</p>
-            </div>
-            <hr class="horizontal-line">
-
-            <form id="signup-form" name="SignupForm">
-                <label for="name" class="modal-text">Name</label>
-                <input type="text" id="name" class="modal-inputtext" placeholder="Enter your name" required>
-                <label for="username" class="modal-text">Username</label>
-                <input type="text" id="username" class="modal-inputtext" placeholder="Enter your username" required>
-                <label for="password" class="modal-text">Password</label>
-                <input type="password" id="password" class="modal-inputtext" placeholder="Enter your password" required>
-                <label for="confirm-password" class="modal-text">Confirm Password</label>
-                <input type="password" id="confirm-password" class="modal-inputtext" placeholder="Re-enter your password" required>
-                <button class="form-bttn">Sign Up</button>
-            </form>
-        </div>
-
-    </div>
+    <div id="signupModal" class="modal" tabindex="-1" role="dialog"></div>
 
     <!-- The Modal -->
-    <div id="signinModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-            <div>
-                <span class="close-signin fa fa-times" aria-hidden="true"></span>
-                <p class="modal-header">Welcome Back!</p>
-            </div>
-            <hr class="horizontal-line">
-
-            <form id="signin-form" name="SigninForm">
-                <label for="login-username" class="modal-text">Username</label>
-                <input type="text" id="login-username" class="modal-inputtext" placeholder="Enter your username" required>
-                <label for="login-password" class="modal-text">Password</label>
-                <input type="password" id="login-password" class="modal-inputtext" placeholder="Enter your password" required>
-                <button class="form-bttn">Sign In</button>
-                <div class="modal-bottomtext">
-                    Not a member?
-                    <a class="modal-showsignup" href="#">Sign Up</a>
-                </div>
-            </form>
-        </div>
-
-    </div>
+    <div id="signinModal" class="modal" tabindex="-1" role="dialog"></div>
 
     <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
 
@@ -84,7 +34,7 @@
                 <div class="post-title">
                     <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
                     <span>
-                        <i class="fas fa-trash"></i>
+                        <i class="fas fa-trash" onclick="deletePost('post-1')"></i>
                     </span>
                 </div>
                 <p class="content-data">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
@@ -105,7 +55,7 @@
                 <div class="post-title">
                     <p>What is linting and how can it save you time?</p>
                     <span>
-                        <i class="fas fa-trash"></i>
+                        <i class="fas fa-trash" onclick="deletePost('post-2')"></i>
                     </span>
                 </div>
                 <p class="content-data">One of the biggest challenges in software development is time. It’s something we can’t easily get more of, but linting can help us make the most out of the time we have.</p>
@@ -126,7 +76,7 @@
                 <div class="post-title">
                     <p>How to Get More Views on Your Tech Blog</p>
                     <span>
-                        <i class="fas fa-trash"></i>
+                        <i class="fas fa-trash" onclick="deletePost('post-3')"></i>
                     </span>
                 </div>
                 <p class="content-data">If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable name in the industry.</p>
@@ -147,7 +97,7 @@
                 <div class="post-title">
                     <p>How to write easily describable code</p>
                     <span>
-                        <i class="fas fa-trash"></i>
+                        <i class="fas fa-trash" onclick="deletePost('post-4')"></i>
                     </span>
                 </div>
                 <p class="content-data">When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people will map to different words, which
@@ -169,7 +119,7 @@
                 <div class="post-title">
                     <p>Everything you should know about ‘module’ & ‘require’ in Node.js</p>
                     <span>
-                        <i class="fas fa-trash"></i>
+                        <i class="fas fa-trash" onclick="deletePost('post-5')"></i>
                     </span>
                 </div>
                 <p class="content-data">Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
@@ -183,6 +133,23 @@
 
         <!-- TODO: Write code for delete post modal here -->
 
+        <!-- The Modal -->
+        <div class="modal" id="deletepostModal">
+            <div id="deletedialog" class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <form>
+                            <h6 id="deletedialogbody">Are you sure you want to delete this post?</h6>
+
+                            <div class="form-group">
+                                <button id="deleteYes" type="button" class="btn btn-success float-left">Yes</button>
+                                <button id="deleteNo" type="button" class="btn btn-danger float-right">No</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- list of all posts ends here -->
 
