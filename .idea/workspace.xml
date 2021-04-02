@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af9b167-caf5-4afc-9cea-0030fe1f8d0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/html/post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/postslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/postslist.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617135721459</updated>
       <workItem from="1617135723376" duration="18487000" />
-      <workItem from="1617337221030" duration="11246000" />
+      <workItem from="1617337221030" duration="11955000" />
     </task>
     <task id="LOCAL-00001" summary="js and css files added">
       <created>1617138187216</created>
@@ -92,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617396295664</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Page header section signup text fixed">
+      <created>1617396907674</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617396907674</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +126,7 @@
     <MESSAGE value="Modal added with background image" />
     <MESSAGE value="Layout cards added" />
     <MESSAGE value="Header code generialized and postlist modals added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header code generialized and postlist modals added" />
+    <MESSAGE value="Page header section signup text fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page header section signup text fixed" />
   </component>
 </project>
