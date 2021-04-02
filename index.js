@@ -18,12 +18,6 @@ span_createpost.onclick = function() {
     modal_createpost.style.display = "none";
 }
 
-window.onclick = function(event) {
-    if (event.target == modal_createpost) {
-        modal_createpost.style.display = "none";
-    }
-}
-
 function pageBodyContainer() {
     var buttonGroup = document.createElement("div");
     buttonGroup.setAttribute("class", "buttoncenter");
