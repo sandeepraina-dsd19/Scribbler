@@ -1,52 +1,60 @@
+// Calls the createHeader() function to dynamically create the page header section dynamically
 createHeader();
+
+// Calls the signUpModal() function to dynamically create the signup modal window
 signUpModal();
+
+// Calls the signInModal() function to dynamically create the signin modal window
 signInModal();
 
-// Get the modal
+// Get the signup modal element
 var modal_signup = document.getElementById("signupModal");
 
-// Get the modal
+// Get the signin modal element
 var modal_signin = document.getElementById("signinModal");
 
-// Get the button that opens the modal
+// Get the button that opens the signup modal
 var btn_signup = document.getElementById("sign-up");
 
-// Get the button that opens the modal
+// Get the button that opens the signin modal window
 var btn_signin = document.getElementById("sign-in");
 
-// Get the <span> element that closes the modal
-var span_signup = document.getElementsByClassName("signUp-close")[0];
+// Get close [x] button of signup modal window
+var signup_modalclose = document.getElementsByClassName("signUp-close")[0];
 
-// Get the <span> element that closes the modal
-var span_signin = document.getElementsByClassName("signIn-close")[0];
+// Get close [x] button of signin modal window
+var signin_modalclose = document.getElementsByClassName("signIn-close")[0];
 
-var signup_href = document.getElementById("signUpButtonLink");
+// Get the reference link for signup modal window located on signin modal window
+var signup_reference = document.getElementById("signUpButtonLink");
 
-// When the user clicks on the button, open the modal
+// When the user clicks signup button to open the signup modal window
 btn_signup.onclick = function() {
     modal_signup.style.display = "block";
 }
 
-// When the user clicks on the button, open the modal
+// When the user clicks signin button to open the signin modal window
 btn_signin.onclick = function() {
     modal_signin.style.display = "block";
 }
 
-signup_href.onclick = function () {
+// When the user clicks signup reference link to open the signup modal window
+signup_reference.onclick = function () {
     modal_signin.style.display = "none";
     modal_signup.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
-span_signup.onclick = function() {
+// When the user clicks close [x] button from the signup modal window to close the modal window
+signup_modalclose.onclick = function() {
     modal_signup.style.display = "none";
 }
 
-// When the user clicks on <span> (x), close the modal
-span_signin.onclick = function() {
+// When the user clicks close [x] button from the signin modal window to close the modal window
+signin_modalclose.onclick = function() {
     modal_signin.style.display = "none";
 }
 
+// Dynamically creates the page header section at runtime
 function createHeader() {
     var button_signin = document.createElement("button");
     button_signin.setAttribute("id", "sign-in");
@@ -75,6 +83,7 @@ function createHeader() {
     headerNode.appendChild(paragraphSubTitle);
 }
 
+// Dynamically creates the signup modal window at runtime
 function signUpModal() {
     var signUp_Modal = '<div class="modal-dialog modal-dialog-centered">';
     signUp_Modal += '<div class="modal-content">';
@@ -114,6 +123,7 @@ function signUpModal() {
     signupModal.innerHTML = signUp_Modal;
 }
 
+// Dynamically creates the signin modal window at runtime
 function signInModal() {
     var signIn_Modal = '<div class="modal-dialog modal-dialog-centered">'
     signIn_Modal += '<div class="modal-content">'

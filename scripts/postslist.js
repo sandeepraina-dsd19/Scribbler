@@ -1,26 +1,38 @@
-// Get the modal
+// Store the selected post-Id
 var selected_postID = "";
+
+// Get the delete post modal window element
 var modal_deletepostDialog = document.getElementById("deletepostModal");
+
+// Get the no button from the delete post modal window
 var modal_deletepostNo = document.getElementById("deleteNo");
+
+// Get the yes button from the delete post modal window
 var modal_deletepostYes = document.getElementById("deleteYes");
 
+//Calls updatePost() function to dynamically load the updated contents and title of a post for a selected post-id
 updatePost();
 
+// When the user clicks no button on delete post modal window
 modal_deletepostNo.onclick = function () {
     modal_deletepostDialog.style.display = "none";
 }
 
+// When the user clicks yes button on delete post modal window
 modal_deletepostYes.onclick = function () {
     var getcard_byID = document.getElementById(selected_postID);
     getcard_byID.remove();
+
     modal_deletepostDialog.style.display = "none";
 }
 
+// When the user clicks delete post icon for a selected post to display the delete post modal window
 function deletePost(id) {
     selected_postID = id;
     modal_deletepostDialog.style.display = "block";
 }
 
+// Store the contents and title of a post for a selected post-id and opens the post web-page
 function loadPost(id) {
     var getPostID = document.getElementById(id);
     var getUser = getPostID.getElementsByClassName("user")[0];
@@ -40,6 +52,7 @@ function loadPost(id) {
     window.location.href = "../html/post.html";
 }
 
+// Dynamically loads the updated contents and title of a post for a selected post-id
 function updatePost() {
     if (sessionStorage.getItem("id") !== "") {
         var getPostID = document.getElementById(sessionStorage.getItem("id"));

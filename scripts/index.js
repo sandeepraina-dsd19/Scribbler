@@ -1,23 +1,34 @@
+// Calls the pageBodyContainer() function to dynamically create page body section at runtime
 pageBodyContainer();
 
+// Get the create-post modal element
 var modal_createpost = document.getElementById("createpostModal");
-var btn_allposts = document.getElementById("all-posts");
-var btn_createpost = document.getElementById("create-post");
-var span_createpost = document.getElementsByClassName("createPost-close")[0];
 
+// Get the button that directs to / opens the blog post web-page
+var btn_allposts = document.getElementById("all-posts");
+
+// Get the button that opens the create post modal window
+var btn_createpost = document.getElementById("create-post");
+
+// Get close [x] button of create-post modal
+var createpost_modalclose = document.getElementsByClassName("createPost-close")[0];
+
+// When the user clicks all-post button to open the blog post web-page
 btn_allposts.onclick = function() {
-    location.href = '../html/bloglist.html';
+    location.href = './html/bloglist.html';
 }
 
+// When the user clicks create-post button to open the create-post modal window
 btn_createpost.onclick = function() {
-    console.log("click");
     modal_createpost.style.display = "block";
 }
 
-span_createpost.onclick = function() {
+// When the user clicks close [x] button from the create-post modal window to close the modal window
+createpost_modalclose.onclick = function() {
     modal_createpost.style.display = "none";
 }
 
+// Dynamically creates the page body section at runtime
 function pageBodyContainer() {
     var buttonGroup = document.createElement("div");
     buttonGroup.setAttribute("class", "buttoncenter");

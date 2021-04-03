@@ -1,18 +1,29 @@
+// User likes click counter
 var total_likes = 0;
 
+// Get the post title text input element
 var postTitle = document.getElementById("post-title");
+
+// Get the post author text element
 var postAuthor = document.getElementById("post-author");
+
+// Get the post content text-area element
 var postContent = document.getElementById("post-content");
+
+// Get the Edit/Save button element
 var changePost = document.getElementById("changePost");
 
+// Calls the loadPostDetail() function to load the details of the blog post of a particular user at page load
 loadPostDetail();
 
+// Load the details of the blog post of a particular user
 function loadPostDetail () {
     postTitle.value = sessionStorage.getItem("title");
     postAuthor.innerHTML = sessionStorage.getItem("author");
     postContent.value = sessionStorage.getItem("content");
 }
 
+// Update the user likes details on click of Like button
 function updateLike() {
     total_likes++;
 
@@ -27,6 +38,7 @@ function updateLike() {
         likestext.innerHTML = total_likes + " person likes this!";
 }
 
+// Save a user comment under all comments section
 function saveComment() {
     var commentArea = document.getElementById("commentArea");
     var all_comments = document.getElementsByClassName("all-comments")[0];
@@ -35,10 +47,11 @@ function saveComment() {
     all_comments.innerHTML += '<p class="comment-section">' + commentArea.value + '</p>';
 }
 
+// Update the post details for following sceanrios
+// If user clicks the edit button then title and contents text-inputs become editable, save button is visible and edit button hides
+// If user clicks the save button then title and contents text-inputs become non-editable, save button hides and edit button is visible
 function updatePostDetail() {
-    console.log(changePost.innerText);
     if (changePost.innerText === "Edit ") {
-        console.log(changePost.innerText + " inside");
         postTitle.className = "title-editable";
         postTitle.removeAttribute("readonly");
 
