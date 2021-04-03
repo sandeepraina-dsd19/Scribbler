@@ -6,7 +6,7 @@ var btn_createpost = document.getElementById("create-post");
 var span_createpost = document.getElementsByClassName("createPost-close")[0];
 
 btn_allposts.onclick = function() {
-    location.href = './html/bloglist.html';
+    location.href = '../html/bloglist.html';
 }
 
 btn_createpost.onclick = function() {
@@ -16,12 +16,6 @@ btn_createpost.onclick = function() {
 
 span_createpost.onclick = function() {
     modal_createpost.style.display = "none";
-}
-
-window.onclick = function(event) {
-    if (event.target == modal_createpost) {
-        modal_createpost.style.display = "none";
-    }
 }
 
 function pageBodyContainer() {

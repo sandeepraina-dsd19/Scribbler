@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9af9b167-caf5-4afc-9cea-0030fe1f8d0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/postslist.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/postslist.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/postslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/postslist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/postslist.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/postslist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/postslist.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/postslist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/post.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,6 +49,12 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Scribbler\styles" />
+      <recent name="D:\Code\Scribbler\scripts" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617135721459</updated>
       <workItem from="1617135723376" duration="18487000" />
-      <workItem from="1617337221030" duration="10773000" />
+      <workItem from="1617337221030" duration="26762000" />
     </task>
     <task id="LOCAL-00001" summary="js and css files added">
       <created>1617138187216</created>
@@ -92,7 +94,49 @@
       <option name="project" value="LOCAL" />
       <updated>1617235646111</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Header code generialized and postlist modals added">
+      <created>1617396295661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617396295664</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Page header section signup text fixed">
+      <created>1617396907674</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617396907674</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Header section on the post page included">
+      <created>1617397462903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617397462903</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Title added for index.html page">
+      <created>1617397530619</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617397530619</updated>
+    </task>
+    <task id="LOCAL-00009" summary="css and js files structuration done">
+      <created>1617398074893</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617398074893</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Post like and comment implementation completed">
+      <created>1617455456928</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617455456928</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +159,12 @@
     <MESSAGE value="header added with stylesheet code" />
     <MESSAGE value="Modal added with background image" />
     <MESSAGE value="Layout cards added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Layout cards added" />
+    <MESSAGE value="Header code generialized and postlist modals added" />
+    <MESSAGE value="Page header section signup text fixed" />
+    <MESSAGE value="Header section on the post page included" />
+    <MESSAGE value="Title added for index.html page" />
+    <MESSAGE value="css and js files structuration done" />
+    <MESSAGE value="Post like and comment implementation completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Post like and comment implementation completed" />
   </component>
 </project>

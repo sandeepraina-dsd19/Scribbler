@@ -1,0 +1,102 @@
+.title-default {
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+    padding-top: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.title-editable {
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.post-wrapper {
+    margin: 40px;
+}
+
+.name {
+    /* margin-left: 40px; */
+    font-size: 20px;
+}
+
+.update-button {
+    float: right;
+}
+
+.post-header {
+    height: 40px;
+}
+
+.content-default {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.content-editable {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.content-likes {
+    margin-top: 20px;
+}
+
+.all-comments-text {
+    margin-top: 20px;
+    font-family: "Comic Sans MS";
+    font-weight: bolder;
+}
+
+.all-comments {
+    margin-top: 10px;
+    background-color: lightgray;
+    padding: 5px 5px;
+}
+
+.comment-section {
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#post-title {
+    font-family: "Microsoft Sans Serif";
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 2%;
+}
+
+#post-author {
+    font-family: cursive;
+    font-size: large;
+}
+
+#post-content {
+    font-family: "Microsoft Sans Serif";
+    font-size: small;
+}
+
+#likestext {
+    font-family: "Courier New";
+    font-size: small;
+    margin-top: 1%;
+}
