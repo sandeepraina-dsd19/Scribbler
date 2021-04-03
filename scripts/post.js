@@ -45,6 +45,8 @@ function saveComment() {
 
     all_comments.className = "all-comments";
     all_comments.innerHTML += '<p class="comment-section">' + commentArea.value + '</p>';
+
+    commentArea.value = "";
 }
 
 // Update the post details for following sceanrios

@@ -149,7 +149,7 @@ function signInModal() {
     signIn_Modal += '</form>'
     signIn_Modal += '<div class="sign-in-footer">'
     signIn_Modal += 'Not a member? '
-    signIn_Modal += '<a id="signUpButtonLink" href="#">Sign Up</a>'
+    signIn_Modal += '<a id="signUpButtonLink" href="javascript:void(0);">Sign Up</a>'
     signIn_Modal += '</div>'
     signIn_Modal += '</div>'
     signIn_Modal += '</div>'
