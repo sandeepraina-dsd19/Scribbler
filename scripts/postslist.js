@@ -20,5 +20,19 @@ function deletePost(id) {
 }
 
 function loadPost(id) {
+    var getPostID = document.getElementById(id);
+    var getUser = getPostID.getElementsByClassName("user")[0];
+    var getAuthor = getUser.getElementsByTagName("p")[0];
+
+    var getPostContent = getPostID.getElementsByClassName("post-content")[0];
+    var getPostTitle = getPostContent.getElementsByClassName("post-title")[0];
+    var getTitle = getPostTitle.getElementsByTagName("p")[0];
+
+    var getContentData = getPostContent.getElementsByClassName("content-data")[0];
+
+    sessionStorage.setItem("author", getAuthor.innerHTML);
+    sessionStorage.setItem("title", getTitle.innerHTML);
+    sessionStorage.setItem("content", getContentData.innerHTML);
+
     window.location.href = "../html/post.html";
 }
