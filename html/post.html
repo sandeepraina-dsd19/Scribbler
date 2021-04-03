@@ -19,14 +19,14 @@
     <div id="signinModal" class="modal" tabindex="-1" role="dialog"></div>
 
     <div id="post-detail" class="post-wrapper">
-        <div id="post-title" class="title"></div>
+        <input type="text" id="post-title" class="title-default" readonly>
         <div class="post-header">
             <span id="post-author" class="name"></span>
             <span class="update-button">
-                <button class="btn btn-danger saved btn-common" id="editPost" onclick="editText()">Edit <i class="fa fa-edit"></i></button>
+                <button class="btn btn-danger saved btn-common" id="changePost" onclick="updatePostDetail()">Edit <i class="fa fa-edit"></i></button>
             </span>
         </div>
-        <div id="post-content" class="content"></div>
+        <textarea readonly id="post-content" rows="4" class="content-default"></textarea>
         <div class="content-likes">
             <button class="btn btn-danger saved btn-common" id="likeButton" onclick="updateLike()"><i class="fa fa-thumbs-up"></i> Like</button>
             <p id="likestext" class="likes-text">Be the first one to like this!</p>

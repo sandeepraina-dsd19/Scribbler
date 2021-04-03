@@ -1,15 +1,16 @@
-loadPostDetail();
-
 var total_likes = 0;
 
-function loadPostDetail () {
-    var postTitle = document.getElementById("post-title");
-    var postAuthor = document.getElementById("post-author");
-    var postContent = document.getElementById("post-content");
+var postTitle = document.getElementById("post-title");
+var postAuthor = document.getElementById("post-author");
+var postContent = document.getElementById("post-content");
+var changePost = document.getElementById("changePost");
 
-    postTitle.innerHTML = sessionStorage.getItem("title");
+loadPostDetail();
+
+function loadPostDetail () {
+    postTitle.value = sessionStorage.getItem("title");
     postAuthor.innerHTML = sessionStorage.getItem("author");
-    postContent.innerHTML = sessionStorage.getItem("content");
+    postContent.value = sessionStorage.getItem("content");
 }
 
 function updateLike() {
@@ -32,4 +33,30 @@ function saveComment() {
 
     all_comments.className = "all-comments";
     all_comments.innerHTML += '<p class="comment-section">' + commentArea.value + '</p>';
+}
+
+function updatePostDetail() {
+    console.log(changePost.innerText);
+    if (changePost.innerText === "Edit ") {
+        console.log(changePost.innerText + " inside");
+        postTitle.className = "title-editable";
+        postTitle.removeAttribute("readonly");
+
+        postContent.className = "content-editable";
+        postContent.removeAttribute("readonly");
+
+        changePost.innerHTML = 'Save <i class="fa fa-save"></i>';
+    }
+    else {
+        sessionStorage.setItem("title", postTitle.value);
+        sessionStorage.setItem("content", postContent.value);
+
+        postTitle.className = "title-default";
+        postTitle.setAttribute("readonly", "readonly");
+
+        postContent.className = "content-default";
+        postContent.setAttribute("readonly", "readonly");
+
+        changePost.innerHTML = 'Edit <i class="fa fa-edit"></i>';
+    }
 }

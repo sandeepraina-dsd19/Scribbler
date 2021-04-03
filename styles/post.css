@@ -1,8 +1,19 @@
-.title {
+.title-default {
     text-align: center;
     font-weight: bold;
     height: 40px;
     padding-top: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.title-editable {
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+    padding-top: 10px;
+    width: 100%;
 }
 
 .post-wrapper {
@@ -22,8 +33,19 @@
     height: 40px;
 }
 
-.content {
+.content-default {
     margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.content-editable {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
 }
 
 textarea {
