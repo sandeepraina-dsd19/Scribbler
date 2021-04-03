@@ -30,3 +30,7 @@ body {
 #contents {
     height: 200px;
 }
+
+#btn-create {
+    margin-bottom: 10px;
+}

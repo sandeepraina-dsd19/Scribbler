@@ -23,7 +23,7 @@
 
     <!-- The Modal -->
     <div id="createpostModal" class="modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
             <!-- Modal content -->
             <div class="modal-content">
                 <div class="modal-header">
@@ -34,7 +34,7 @@
                 </div>
 
                 <div class="modal-body">
-                    <form>
+                    <form id="post-detail">
                         <div class="form-row">
                             <label for="title"><b>Title</b></label>
                             <input type="text" id="title" class="form-control" placeholder="Enter title of your post" required>
@@ -44,11 +44,11 @@
                             <label for="contents"><b>Contents</b></label>
                             <textarea id="contents" class="form-control" placeholder="Enter the contents of your post" required></textarea>
                         </div>
-
-                        <div class="form-row">
-                            <button class="btn btn-success btn-block btn-success-custom" type="submit">Create</button>
-                        </div>
                     </form>
+                </div>
+
+                <div class="align-self-center">
+                    <button id="btn-create" class="btn btn-success" form="post-detail">Create</button>
                 </div>
             </div>
         </div>
