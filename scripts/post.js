@@ -45,7 +45,7 @@ function saveComment() {
 
     if (commentArea.value !== "") {
         all_comments.className = "all-comments";
-        all_comments.innerHTML += '<p class="comment-section">' + commentArea.value + '</p>';
+        all_comments.innerHTML = '<p class="comment-section">' + commentArea.value + '</p>' + all_comments.innerHTML;
     }
 
     commentArea.value = "";
