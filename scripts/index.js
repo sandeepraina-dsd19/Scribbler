@@ -13,9 +13,9 @@ var btn_createpost = document.getElementById("create-post");
 // Get close [x] button of create-post modal
 var createpost_modalclose = document.getElementsByClassName("createPost-close")[0];
 
-// When the user clicks all-post button to open the blog post web-page
+// When the user clicks all-post button to open the post list web-page
 btn_allposts.onclick = function() {
-    location.href = './html/bloglist.html';
+    location.href = './html/postslist.html';
 }
 
 // When the user clicks create-post button to open the create-post modal window
