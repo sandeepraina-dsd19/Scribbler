@@ -40,24 +40,43 @@ btn_signin.onclick = function() {
 
 // When the user clicks signup reference link to open the signup modal window
 signup_reference.onclick = function () {
-    var login_username = document.getElementById("login-username");
-    var login_password = document.getElementById("login-password");
-
-    login_username.value = "";
-    login_password.value = "";
-
+    clearPreviousValuesofSignIn();
     modal_signin.style.display = "none";
     modal_signup.style.display = "block";
 }
 
 // When the user clicks close [x] button from the signup modal window to close the modal window
 signup_modalclose.onclick = function() {
+    clearPreviousValuesofSignUp();
     modal_signup.style.display = "none";
 }
 
 // When the user clicks close [x] button from the signin modal window to close the modal window
 signin_modalclose.onclick = function() {
+    clearPreviousValuesofSignIn();
     modal_signin.style.display = "none";
+}
+
+// Clears the previous values of all the input fields of Sign Up modal window
+function clearPreviousValuesofSignUp() {
+    var name = document.getElementById("name");
+    var username = document.getElementById("username");
+    var password = document.getElementById("password");
+    var confirm_password = document.getElementById("confirm-password");
+
+    name.value = "";
+    username.value = "";
+    password.value = "";
+    confirm_password.value = "";
+}
+
+// Clears the previous values of all the input fields of Sign In modal window
+function clearPreviousValuesofSignIn() {
+    var login_username = document.getElementById("login-username");
+    var login_password = document.getElementById("login-password");
+
+    login_username.value = "";
+    login_password.value = "";
 }
 
 // Dynamically creates the page header section at runtime
