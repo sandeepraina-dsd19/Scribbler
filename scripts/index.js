@@ -4,7 +4,7 @@ pageBodyContainer();
 // Get the create-post modal element
 var modal_createpost = document.getElementById("createpostModal");
 
-// Get the button that directs to / opens the blog post web-page
+// Get the button that directs to/opens the blog post web-page
 var btn_allposts = document.getElementById("all-posts");
 
 // Get the button that opens the create post modal window

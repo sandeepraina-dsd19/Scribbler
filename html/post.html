@@ -10,14 +10,16 @@
     <link rel="stylesheet" href="../styles/post.css" />
 </head>
 <body>
+    <!-- Page Header Section -->
     <div class="header"></div>
 
-    <!-- The Modal -->
+    <!-- Signup Modal Window dynamically created by common.js -->
     <div id="signupModal" class="modal" tabindex="-1" role="dialog"></div>
 
-    <!-- The Modal -->
+    <!-- Signin Modal Window dynamically created by common.js -->
     <div id="signinModal" class="modal" tabindex="-1" role="dialog"></div>
 
+    <!-- Detail Post Page for the selected ID starts here -->
     <div id="post-detail" class="post-wrapper">
         <input type="text" id="post-title" class="title-default" readonly>
         <div class="post-header">
@@ -39,6 +41,7 @@
         <div class="all-comments-text">All Comments</div>
         <div class="all-comments hidden"></div>
     </div>
+    <!-- Detail Post Page for the selected ID ends here -->
 
     <script src="../scripts/common.js"></script>
     <script src="../scripts/post.js"></script>
