@@ -25,7 +25,17 @@ btn_createpost.onclick = function() {
 
 // When the user clicks close [x] button from the create-post modal window to close the modal window
 createpost_modalclose.onclick = function() {
+    clearPreviousValuesofCreatePost();
     modal_createpost.style.display = "none";
+}
+
+// Clears the previous values of all the input fields of Create Post modal window
+function clearPreviousValuesofCreatePost() {
+    var title = document.getElementById("title");
+    var contents = document.getElementById("contents");
+
+    title.value = "";
+    contents.value = "";
 }
 
 // Dynamically creates the page body section at runtime
