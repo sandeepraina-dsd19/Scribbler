@@ -40,6 +40,12 @@ btn_signin.onclick = function() {
 
 // When the user clicks signup reference link to open the signup modal window
 signup_reference.onclick = function () {
+    var login_username = document.getElementById("login-username");
+    var login_password = document.getElementById("login-password");
+
+    login_username.value = "";
+    login_password.value = "";
+
     modal_signin.style.display = "none";
     modal_signup.style.display = "block";
 }

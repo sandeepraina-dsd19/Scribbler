@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9af9b167-caf5-4afc-9cea-0030fe1f8d0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="9af9b167-caf5-4afc-9cea-0030fe1f8d0d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617481910683</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Issues with create button size on create post page resolved">
+      <created>1617484807884</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1617484807884</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Code comments in html pages implemented">
+      <created>1617522784606</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617522784606</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +189,8 @@
     <MESSAGE value="Post like and comment implementation completed" />
     <MESSAGE value="Code comments added in the JS files" />
     <MESSAGE value="Issues related with non-cleareance of comments text input and redirection to # page resolved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Issues related with non-cleareance of comments text input and redirection to # page resolved" />
+    <MESSAGE value="Issues with create button size on create post page resolved" />
+    <MESSAGE value="Code comments in html pages implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code comments in html pages implemented" />
   </component>
 </project>
