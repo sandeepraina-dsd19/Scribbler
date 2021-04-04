@@ -20,6 +20,15 @@ modal_deletepostNo.onclick = function () {
 
 // When the user clicks yes button on delete post modal window
 modal_deletepostYes.onclick = function () {
+    if (sessionStorage.getItem("id") !== null && sessionStorage.getItem("id") !== "") {
+        if (sessionStorage.getItem("id") === selected_postID) {
+            sessionStorage.removeItem("id");
+            sessionStorage.removeItem("author");
+            sessionStorage.removeItem("title");
+            sessionStorage.removeItem("content");
+        }
+    }
+
     var getcard_byID = document.getElementById(selected_postID);
     getcard_byID.remove();
 
@@ -54,7 +63,7 @@ function loadPost(id) {
 
 // Dynamically loads the updated contents and title of a post for a selected post-id
 function updatePost() {
-    if (sessionStorage.getItem("id") !== "") {
+    if (sessionStorage.getItem("id") !== null && sessionStorage.getItem("id") !== "") {
         var getPostID = document.getElementById(sessionStorage.getItem("id"));
 
         var getPostContent = getPostID.getElementsByClassName("post-content")[0];
