@@ -43,8 +43,10 @@ function saveComment() {
     var commentArea = document.getElementById("commentArea");
     var all_comments = document.getElementsByClassName("all-comments")[0];
 
-    all_comments.className = "all-comments";
-    all_comments.innerHTML += '<p class="comment-section">' + commentArea.value + '</p>';
+    if (commentArea.value !== "") {
+        all_comments.className = "all-comments";
+        all_comments.innerHTML += '<p class="comment-section">' + commentArea.value + '</p>';
+    }
 
     commentArea.value = "";
 }

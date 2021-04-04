@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617522784606</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Issue with clearance of old values in sigin modal window resolved">
+      <created>1617523132430</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1617523132430</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +198,7 @@
     <MESSAGE value="Issues related with non-cleareance of comments text input and redirection to # page resolved" />
     <MESSAGE value="Issues with create button size on create post page resolved" />
     <MESSAGE value="Code comments in html pages implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code comments in html pages implemented" />
+    <MESSAGE value="Issue with clearance of old values in sigin modal window resolved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Issue with clearance of old values in sigin modal window resolved" />
   </component>
 </project>
