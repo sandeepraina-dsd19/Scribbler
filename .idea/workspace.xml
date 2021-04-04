@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9af9b167-caf5-4afc-9cea-0030fe1f8d0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/postslist.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/postslist.js" afterDir="false" />
-    </list>
+    <list default="true" id="9af9b167-caf5-4afc-9cea-0030fe1f8d0d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617523327439</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Issue with session-storage resolved">
+      <created>1617526174162</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1617526174162</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +214,7 @@
     <MESSAGE value="Code comments in html pages implemented" />
     <MESSAGE value="Issue with clearance of old values in sigin modal window resolved" />
     <MESSAGE value="Issue with addition of empty comments at post web-page resolved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Issue with addition of empty comments at post web-page resolved" />
+    <MESSAGE value="Issue with session-storage resolved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Issue with session-storage resolved" />
   </component>
 </project>
